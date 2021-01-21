@@ -24,4 +24,16 @@ router.get('/TIN-TUC', function(req, res, next){
   res.render('TINTUC',{title:'TIN TỨC'})
 });
 
+router.get('/HINH-ANH', function(req, res, next){
+  res.render('HinhAnh',{title:'HÌNH ẢNH'})
+});
+
+router.get('/BUILD-TEAM', function(req, res, next){
+  res.render('BuildTeam',{title:'HƯỚNG DẪN BUILD TEAM'})
+});
+
+router.get('/FEEDBACK', function(req, res, next){
+  res.render('Feedback',{title:'PHẢN HỒI - GÓP Ý'})
+});
+
 module.exports = router;
